@@ -1,0 +1,81 @@
+.container{
+    padding: 6rem 0;
+}
+.contact-info{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.contact-info div h4{
+    font-size: x-large;
+}
+.address{
+    color: gray;
+}
+span{
+    color: #f57222;
+}
+.contact-row :last-child{
+    padding: 1rem;
+}
+
+.contact-row{  
+    margin: 6rem 0;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+}
+.contact-btn{
+    background-color: #f57222;
+    color: white;
+    margin-top: 1rem;
+    width: 100%;
+}
+.contact-btn:hover{
+    background-color: white;
+    border: 1px solid #ff7722;
+    color: #ff5722;
+}
+form *:not(textarea){
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+textarea{
+    background-color: white;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+@media (max-width: 980px) {
+    .container {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact-info{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .contact-info div h4{
+        font-size: large;
+    }
+    .contact-info span{
+        font-size: medium;
+    }
+    .contact-row{  
+        width: 90%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-row :last-child{
+        padding: 0.5rem;
+    }
+    
+}

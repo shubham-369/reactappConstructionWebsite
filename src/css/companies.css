@@ -1,0 +1,30 @@
+.happyClients{
+    text-align: center;
+}
+.happyClients h6{
+    font-weight: 700;
+}
+.happyClients div h1{
+    font-weight: 600;
+    margin-bottom: 6rem;
+}
+.logos{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logos img{
+    width: 12rem;
+}
+@media (max-width: 980px) {
+    .happyClients{
+        margin: 3rem 0;
+    }
+    .happyClients div h1{
+        margin-bottom: 3rem;
+    }
+    .logos img{
+        width: 30%;
+    }
+}

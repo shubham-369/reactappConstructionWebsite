@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 3rem 0;
+}
+.project-list{
+    width: 100%;
+    padding: 1rem;
+    background-color: whitesmoke;
+}
+.project{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem;
+}
+.video-player {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+}
+.project ol li{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: gray;
+}
+video {
+    max-width: 100%; 
+    height: auto;
+}
+.github{
+    font-size: 3rem;
+    color: black;
+}
+@media (max-width: 980px) {
+    .container{
+        padding: 0;
+    }
+    .project-list{
+        width: 100%;
+        padding: 0;
+    }
+    .project{
+        width: 100%;
+        padding: 0.5rem;
+    }
+    .project ol li{
+        font-size: 1rem;
+        font-weight: 600;
+        color: gray;
+    }
+    .github{
+        font-size: 2rem;
+        color: black;
+    }
+}
