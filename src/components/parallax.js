@@ -18,7 +18,7 @@ const Parallax = ({ Page }) => {
     <>
       {Page == "Home" ? (
         <div className="parallax-home">
-          <div className="details">
+          <div className="parallax-home-details">
             <h1>WE WILL BE HAPPY TO TAKE CARE OF YOUR WORK</h1>
             <div className="buttons">
               <a href="/contact">Contact Us</a>

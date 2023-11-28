@@ -80,14 +80,14 @@ a{
     flex-direction: column;
   }
 
-.details{
+.parallax-home-details{
     text-align: center;
     word-spacing: normal;
     width: 60%;
     color: white;
     font-family: 'Noto Sans', sans-serif;
 }
-.details h1{
+.parallax-home-details h1{
     font-size: 3.5rem;
 }
 .buttons{
@@ -113,11 +113,11 @@ a{
     .parallax-home{
         height: 90vh;
     }
-    .details{
+    .parallax-home-details{
         width: 100%;
         padding: 0 1rem;
     }
-    .details h1{
+    .parallax-home-details h1{
         font-size: 3rem;
     }
     .buttons a:first-child{
